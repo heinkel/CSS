@@ -9,8 +9,16 @@
   <body>
    	<div class='page'>
   		<div class='section menu'></div>
-  		<div class='section header'>
-    		<img src='images/header.svg'/></div>
+        <div class='section header'>
+            <div class='photo'>
+                <img src='images/photo-small.jpg'
+                     srcset='images/photo-big.jpg 1000w,
+                             images/photo-small.jpg 2000w'
+                      sizes='(min-width: 960px) 960px,
+                            100vw'/>
+           </div>
+        </div>
+
   		<div class='section content'>
           <div class='illustration'>
               <img src='illustration-small.png'
